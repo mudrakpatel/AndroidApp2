@@ -6,27 +6,23 @@
     android:layout_height="match_parent"
     tools:context="apps.mudrak.androidapp2.Activity2">
 
-    <ToggleButton
+    <!--<ToggleButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:textColor="#003153"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
-        android:id="@id/toggleButton1" />
+        android:id="@id/toggleButton1" />-->
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Activity2\nClick to go back."
         android:textAlignment="center"
         android:id="@id/textView2"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
         android:textSize="25sp"
-        android:padding="8sp"
-        android:onClick="textView2OnClick"
-        android:layout_below="@id/toggleButton1"
-        android:visibility="invisible"/>
+        android:padding="8sp" />
 
 </RelativeLayout>
